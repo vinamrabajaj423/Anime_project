@@ -1,0 +1,37 @@
+html,body{
+    background-color: rgb(24, 24, 24);
+}
+.container{
+    background-color: black;
+    color:white;
+    padding:40px;
+    max-width:800px;
+    border-radius:20px;
+    text-align: center;
+    margin:auto;
+    margin-top:70px;
+}
+input{
+    width:50%;
+    height:30px;
+    border:2px solid rgb(189, 235, 40);
+    border-radius: 4px;
+    margin:10px 0px;
+    text-align: center;
+}
+
+button{
+    width:50%;
+    height:30px;
+    border:2px solid rgb(44, 59, 200);
+    border-radius: 10px;
+    margin-top:20px;
+}
+
+button:hover{
+    background-color: aqua;
+    cursor:pointer;
+    border: 2px solid blue;
+    background-color: rgb(61, 61, 145);
+    transition: 0.2s;
+}

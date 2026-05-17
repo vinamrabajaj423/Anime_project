@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" name="container" id="container">
+    <div>
+        <h1>Welcome to the amazing site of Vinamra Bajaj</h1>
+        <p>Let's have a test guys</p>
+    </div>
+    <div id="personal_info">
+        <p id="p">First tell me who the hell are you? if you don't answer i will not let you proceed</p>
+        <form id="first_form" name="first_form" method="post">
+            <input type="text" placeholder="What is your name" name="name" id="name"required>
+            <input type="email" placeholder="May I have your mail please" name="email"id="email" required>
+            <input type="password" placeholder="Set you password which only you and I can have" name="password" id="password" required>
+        </form>
+        <button type="submit" id="first_submit">Submit</button>
+    </div>
+    <hr style="margin-top: 20px;">
+    <div id="anime_test" class="anime_test">
+        <p>Let's have a test of the anime</p>
+        <form id="second_form" name="second_form">
+            <input type="selectbox" placeholder="Which type anime you like" id="anime_type" name="anime_type" required>
+            <input type="text" placeholder="Why not you type your favourite anime" id="anime_name" name="anime_name" required>
+            <input type="url" placeholder="Submit the url of the photo please" id="url" name="url" required>
+        </form>
+    </div>
+    <button type="submit" id="final_submit">Submit</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
