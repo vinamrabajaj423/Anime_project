@@ -23,3 +23,6 @@ A beginner frontend project built using HTML, CSS, and JavaScript.
 
 ## Author
 Vinamra Bajaj
+
+##Live Deployment
+https://vinamrabajaj423.github.io/Anime_project/
